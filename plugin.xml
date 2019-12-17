@@ -9,7 +9,9 @@ xmlns:android="http://schemas.android.com/apk/res/android">
 	<engines>
 		<engine name="cordova" version=">=3.2.0" />
 	</engines>
-
+		
+	<variable name="API_KEY" value="AIzaSyBkCusQNwk4gnmOzRW4MgEIVzpljZMTvAA" />
+	
 	<platform name="android">
 		<hook type="after_plugin_install" src="scripts/android/after_plugin_install.js" />
 		<hook type="before_plugin_uninstall" src="scripts/android/before_plugin_uninstall.js" />
@@ -60,6 +62,8 @@ xmlns:android="http://schemas.android.com/apk/res/android">
 		<framework src="com.google.firebase:firebase-messaging:+" />
 		<framework src="com.google.firebase:firebase-config:+" />
 		<framework src="com.google.firebase:firebase-perf:+" />
+		
+		<variable name="APP_ID" value="1:857841318842:android:6bbf1a9687837ab6" />
 	</platform>
 
 	<platform name="ios">
@@ -109,6 +113,8 @@ xmlns:android="http://schemas.android.com/apk/res/android">
 		<framework custom="true" src="src/ios/Firebase/RemoteConfig/Protobuf.framework" />
 		<framework custom="true" src="src/ios/Firebase/RemoteConfig/FirebaseRemoteConfig.framework" />
 		<framework custom="true" src="src/ios/Firebase/RemoteConfig/FirebaseABTesting.framework" />
+
+		<variable name="APP_ID" value="1:857841318842:ios:6bbf1a9687837ab6" />
 	</platform>
 
 	<platform name="browser">
