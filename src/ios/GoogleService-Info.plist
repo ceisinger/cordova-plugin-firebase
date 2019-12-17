@@ -2,5 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CLIENT_ID</key>
+	<string>857841318842-vehkqe6e31p6a9913net9b22p6udt08m.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.857841318842-vehkqe6e31p6a9913net9b22p6udt08m</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCEdvyRhAzPt8vF-xzJr8_TS07yf3RtptM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>857841318842</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>sb.digitale.app</string>
+	<key>PROJECT_ID</key>
+	<string>digitale-8444f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>digitale-8444f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:857841318842:ios:6bbf1a9687837ab6</string>
+	<key>DATABASE_URL</key>
+	<string>https://digitale-8444f.firebaseio.com</string>
 </dict>
 </plist>
